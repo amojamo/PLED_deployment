@@ -1,6 +1,6 @@
 = PLED deployment =
 
-NOTE: {icon cog spin} Under construction {icon cog spin}
+NOTE: Under construction
 
 The content of this repository is based on Erik Hjelmås' "Kubernetes lab exercise" found at his [Github repository](https://github.com/githubgossin/IaC-heat-k8s).
 
