@@ -9,9 +9,7 @@ openssl req -x509 -nodes -days 500 -newkey rsa:2048 -keyout /tmp/dbwebintf.key -
 cat /tmp/dbwebintf.crt /tmp/dbwebintf.key > /etc/ssl/private/dbweb-intf.pem
 chmod 600 /etc/ssl/private/dbweb-intf.pem
 
-git clone REPO /home/ubuntu/
-#CLONE HERE
-
+git clone https://github.com/amojamo/PLED /home/ubuntu/
 
 sleep 5
 cp /home/ubuntupled/config/haproxy.cfg /etc/haproxy/
